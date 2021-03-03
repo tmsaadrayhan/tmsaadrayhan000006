@@ -1,0 +1,39 @@
+nav li{
+    list-style: none;
+    margin: 10px 30px;
+    padding: 10px 10px;
+    box-shadow: black 0px 0px 10px;
+    border-radius: 15px;
+    background-color: rgb(125, 125, 255);
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+nav li:hover{
+    box-shadow: white 0px 0px 15px;
+}
+nav a:hover{
+    color: white;
+}
+nav{
+    height: 100px;
+    background-color: rgb(125, 125, 255);
+}
+nav > ul> li{
+    float: left;
+}
+body{
+    background-color:rgb(255, 230, 180);
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    padding: 0px;
+    margin: 10px 0px 0px -50px;
+}
+nav > ul > li:hover > ul{
+    display: block;
+}
