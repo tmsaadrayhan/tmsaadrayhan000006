@@ -37,3 +37,11 @@ body{
 nav > ul > li:hover > ul{
     display: block;
 }
+svg{
+    border: 1px solid red;
+}
+section{
+    background-color: white;
+    height: 500px;
+    padding: 50px 50px;
+}
